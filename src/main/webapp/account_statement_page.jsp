@@ -2,6 +2,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%><html>
 	<head>
+	<link href ="${pageContext.request.contextPath}/images/Styling.css" type ="text/css" rel ="stylesheet"></link>
 	 	<title>Statement Form</title>
 	 	<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
