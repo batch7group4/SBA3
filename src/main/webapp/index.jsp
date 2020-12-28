@@ -1,4 +1,5 @@
 <html>
+<link href ="${pageContext.request.contextPath}/images/Styling.css" type ="text/css" rel ="stylesheet"></link>
 	<head>
 		<title>IBS Online Banking</title>
 		<link rel="stylesheet" type="text/css" href="styles.css">

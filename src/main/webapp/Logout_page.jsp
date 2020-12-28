@@ -8,6 +8,15 @@
 <title>Logout Button</title>
 <body>
     <align ="left"> <a href="index.jsp">Log Out</a> 
+    	 <span>|</span>
+		<%-- <a href="/acctSummary?userName=${userName}">Account Summary</a>
+	 <span>|</span>
+	  <a href="/acctStmt?userName=${userName}">Account Statement</a>
+	 <span>|</span>
+	 <a href="/addBnfPage?userName=${userName}">Beneficiaries</a>
+	 <span>|</span>
+	 <a href="/transfer?userName=${userName}">Fund Transfer</a>
+	 <span>|</span> --%>
 </body>
 </head>
 </html>

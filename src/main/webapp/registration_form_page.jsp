@@ -3,6 +3,7 @@
 <%@page import="java.time.LocalDate" %>
 
 <html>
+<link href ="${pageContext.request.contextPath}/images/Styling.css" type ="text/css" rel ="stylesheet"></link>
 	<head>
 	 	<title>Registration Form</title>
 	 	<link rel="stylesheet" type="text/css" href="styles.css">

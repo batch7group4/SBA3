@@ -1,6 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %><html>
 <body>
+<link href ="${pageContext.request.contextPath}/images/Styling.css" type ="text/css" rel ="stylesheet"></link>
 		<!-- <body style="background-color:AliceBlue;">
     </body> -->
 	
@@ -15,14 +16,14 @@
 	 <span>|</span>
 	 <a href="login_form_page.jsp">Login</a>
 	 <span>|</span>
-		<a href="/acctSummary?userName=${userName}">Account Summary</a>
+		<%-- <a href="/acctSummary?userName=${userName}">Account Summary</a>
 	 <span>|</span>
 	  <a href="/acctStmt?userName=${userName}">Account Statement</a>
 	 <span>|</span>
 	 <a href="/addBnfPage?userName=${userName}">Beneficiaries</a>
 	 <span>|</span>
 	 <a href="/transfer?userName=${userName}">Fund Transfer</a>
-	 <span>|</span>
+	 <span>|</span> --%>
 	 
 	
 	<hr />
