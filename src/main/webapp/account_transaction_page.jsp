@@ -10,7 +10,7 @@
 	</head>
 	
 <body>
-	<jsp:include page="menu.jsp"/>
+	<jsp:include page="menu2.jsp"/>
 	<form:form action="/transferFunds?userName=${userName}" method="POST" modelAttribute="transfer" class="form">
 	
 	<h5><tr align="right"><p>Welcome ${userName} !! </p></tr></h5>

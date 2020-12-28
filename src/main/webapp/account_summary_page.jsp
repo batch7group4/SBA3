@@ -9,7 +9,7 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<jsp:include page="menu.jsp"/>
+	<jsp:include page="menu2.jsp"/>
 	<jsp:include page="Logout_page.jsp"/>
 	<h2>Quick Links</h2>
 <div id="navigation">

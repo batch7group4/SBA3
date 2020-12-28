@@ -6,7 +6,7 @@
 	 	<title>Statement Form</title>
 	 	<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
-	<jsp:include page="menu.jsp"/>
+	<jsp:include page="menu2.jsp"/>
 	<h3>Account Statement</h3>
 	<h5>Welcome ${userName }</h5>
 	 <c:choose>
