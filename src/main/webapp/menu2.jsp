@@ -6,20 +6,24 @@
     </body> -->
 	
 		 <img class="image" src="images/ibsbank.png" 
-		 alt="ibsbank" width="300" height="120" style="vertical-align:bottom">
+		 alt="ibsbank" height="150" style="vertical-align:bottom">
 <nav>
-	<hr />
-	 <span>|</span>
-		 <a href="/acctSummary?userName=${userName}">Account Summary</a>
-	 <span>|</span>
-	  <a href="/acctStmt?userName=${userName}">Account Statement</a>
-	 <span>|</span>
+	<hr>
+	<button>
+	 <a href="/acctSummary?userName=${userName}">Account Summary</a>
+	 </button>
+	 <button>
+	 <a href="/acctStmt?userName=${userName}">Account Statement</a>
+	  </button>
+	 <button>
 	 <a href="/addBnfPage?userName=${userName}">Beneficiaries</a>
-	 <span>|</span>
-	 <a href="/transfer?userName=${userName}">Fund Transfer</a>
-	 <span>|</span> 
-	 
-	
-	<hr />
+	  </button>
+	 <button>
+	 <a href="/transfer?userName=${userName}">Transfer Funds</a>
+	  </button>
+	 <button>
+	 <a href="index.jsp">LogOut</a> 
+	  </button>
+	<hr>
 </nav>
 </html>

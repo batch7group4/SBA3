@@ -30,8 +30,6 @@
         			<input type="radio" name="role" value="Svc Provider" /><label for="Svc Proider">Svc Provider</label>
       				</div></td>
 		</tr>
-			
-	
 				
 		</table>
 	<button type="submit">Login</button>   </a>

@@ -4,7 +4,7 @@
 	<link href ="${pageContext.request.contextPath}/images/Styling.css" type ="text/css" rel ="stylesheet"></link>
 	 	<title>Beneficiaries page</title>
 	 	
-<jsp:include page="menu.jsp"/>
+<jsp:include page="menu2.jsp"/>
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 	</head>

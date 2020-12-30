@@ -2,7 +2,7 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %><html>
 	<head>
 	 	<title>Bill Payments page</title>
-	 	<jsp:include page="menu.jsp"/>
+	 	<jsp:include page="menu2.jsp"/>
 	 	<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 <body>

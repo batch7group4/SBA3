@@ -7,8 +7,9 @@
 <head>
 <title>Logout Button</title>
 <body>
-    <align ="left"> <a href="index.jsp">Log Out</a> 
-    	 <span>|</span>
+
+<a href="index.jsp" style="float:right">Log Out</a> 
+<!-- <button class="btn" style="height:30px;width:80px;float:right;background-color:dodgerblue; color:white">Logout</button>  -->
 		<%-- <a href="/acctSummary?userName=${userName}">Account Summary</a>
 	 <span>|</span>
 	  <a href="/acctStmt?userName=${userName}">Account Statement</a>

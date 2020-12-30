@@ -5,14 +5,14 @@
 
 <html>
 	<head>
-	 	<title>Registration Form</title>
+	 	<title>Transaction Form</title>
 	 	<link rel="stylesheet" type="text/css" href="styles.css">
 	</head>
 	
 <body>
-	<jsp:include page="menu2.jsp"/>
-	<form:form action="/transferFunds?userName=${userName}" method="POST" modelAttribute="transfer" class="form">
 	
+	<form:form action="/transferFunds?userName=${userName}" method="POST" modelAttribute="transfer" class="form">
+	<jsp:include page="menu2.jsp"/>
 	<h5><tr align="right"><p>Welcome ${userName} !! </p></tr></h5>
 
 		<table >

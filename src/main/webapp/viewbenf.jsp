@@ -4,7 +4,7 @@
 <html>
     <head>
         <title>IBS Bank-Benf List</title>
-    <jsp:include page="menu.jsp"/>
+    <jsp:include page="menu2.jsp"/>
 <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     
@@ -12,7 +12,7 @@
     <form:form action="/viewBnfcry?userName=${userName}" method="GET" modelAttribute="viewBnfcry" class="form">
     
     <tr>
-                            <tr align="right"><p>Welcome ${userName} !! </p></tr>
+      <tr align="right"><p>Welcome ${userName} !! </p></tr>
 
 
         <table>

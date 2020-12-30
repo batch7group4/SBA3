@@ -1,6 +1,7 @@
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
-<%@page contentType="text/html" pageEncoding="UTF-8"%><html>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<html>
 	<head>
 	<link href ="${pageContext.request.contextPath}/images/Styling.css" type ="text/css" rel ="stylesheet"></link>
 	 	<title>Statement Form</title>
@@ -42,6 +43,4 @@
 					</table>
 					</c:otherwise>
 			</c:choose>
-
-<button>Submit</button>
 </html>

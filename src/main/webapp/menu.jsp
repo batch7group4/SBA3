@@ -6,7 +6,7 @@
     </body> -->
 	
 		 <img class="image" src="images/ibsbank.png" 
-		 alt="ibsbank" width="300" height="120" style="vertical-align:bottom">
+		 alt="ibsbank" height="150" style="vertical-align:bottom">
 <nav>
 	<hr />
 	 <a href="index.jsp"><img src="images/home.jpg" 

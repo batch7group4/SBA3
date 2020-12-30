@@ -10,18 +10,16 @@
 </head>
 <body>
 	<jsp:include page="menu2.jsp"/>
-	<jsp:include page="Logout_page.jsp"/>
-	<h2>Quick Links</h2>
+	<h3>Quick Links</h2>
 <div id="navigation">
     <ul>
-    <li><a href="account_statement_page.jsp">Account Statement</a></li>
-    <li><a href="account_transaction_page.jsp">Fund Transfer</a></li>
-    <li><a href="beneficiary_form_page.jsp">Beneficiaries</a></li>
-    <li><a href="bill_payments.jsp">Bill Payments</a></li>
+    <li><a href="/acctStmt?userName=${userName}">Account Statement</a></li>
+    <li><a href="/transfer?userName=${userName}">Transfer Funds</a></li>
+    <li><a href="/addBnfPage?userName=${userName}">Beneficiaries</a></li>
     </ul>
   
   
-  <h2><center>Account Summary</h2><h5>Welcome ${userName }</h5>
+  <h2>Account Summary</h2><h5>Welcome ${userName }</h5>
    <table style="float:top;width:400px; margin:0 auto;">
 	
 	<c:choose>

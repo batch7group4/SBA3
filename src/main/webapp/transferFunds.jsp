@@ -39,6 +39,7 @@
                         <font color="brown"><h2>Funds Transfer </h2></font>
 						<h4><a href="/addBnfPage?userName=${userName}">Add Beneficiary</a>
                         <span><a href="/fundsTransferHome?userName=${userName}">View List Of Beneficiaries</a></span></h4>
+                        
 <form:form action="/transfer?userName=${userName}" method="POST" modelAttribute="transfer" class="form">
 
 		<table border="0" cellspacing="0" cellpadding="0" width="40%" >
